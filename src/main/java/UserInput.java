@@ -4,12 +4,19 @@ public class UserInput {
     private String lastName;
     private String password;
     private Long userId;
+    private String city;
+    private String state;
+    private String zipCode;
 
-    public UserInput(String firstName, String lastName, String password, Long userId) {
+
+    public UserInput(String firstName, String lastName, String city, String state, String zipCode, String password, Long userId) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.password = password;
         this.userId = userId;
+        this.city = city;
+        this.state = state;
+        this.zipCode = zipCode;
     }
 
     public String getFirstName() {
@@ -43,4 +50,29 @@ public class UserInput {
     public void setUserId(Long userId) {
         this.userId = userId;
     }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public String getZipCode() {
+        return zipCode;
+    }
+
+    public void setZipCode(String zipCode) {
+        this.zipCode = zipCode;
+    }
+
 }
