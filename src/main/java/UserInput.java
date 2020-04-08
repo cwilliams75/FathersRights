@@ -2,17 +2,17 @@ public class UserInput {
 
     private String firstName;
     private String lastName;
-    private String password;
+    private String passWord;
     private Long userId;
     private String city;
     private String state;
     private String zipCode;
 
 
-    public UserInput(String firstName, String lastName, String city, String state, String zipCode, String password, Long userId) {
+    public UserInput(String firstName, String lastName, String city, String state, String zipCode, String passWord, Long userId) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.password = password;
+        this.passWord = passWord;
         this.userId = userId;
         this.city = city;
         this.state = state;
@@ -35,12 +35,12 @@ public class UserInput {
         this.lastName = lastName;
     }
 
-    public String getPassword() {
-        return password;
+    public String getPassWord() {
+        return passWord;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPassWord(String passWord) {
+        this.passWord = passWord;
     }
 
     public Long getUserId() {
