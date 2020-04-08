@@ -1,2 +1,2 @@
 # com.cwilliams.fathersrights.FathersRightsApplication
-Father's Rights App
+Father's Rights Spring Boot App
