@@ -1,16 +1,16 @@
-import com.cwilliams.fathersrights.models.UserInput;
+import com.cwilliams.fathersrights.models.User;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class UserInputTest {
+public class UserTest {
 
     //Actual user called testUser
-    UserInput testUser = new UserInput("Corey","Williams","Bear","DE","19701","Aeiou1",1L);
+    User testUser = new User("Corey","Williams","Bear","DE","19701","Aeiou1",1L);
 
     @Test
-    public UserInput getTestUserTest() {
+    public User getTestUserTest() {
         return testUser;
     }
     @Test

@@ -1,4 +1,4 @@
 package com.cwilliams.fathersrights.services;
 
-public class UserInputService {
+public class UserService {
 }

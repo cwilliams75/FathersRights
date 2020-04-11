@@ -1,4 +1,4 @@
 package com.cwilliams.fathersrights.repositories;
 
-public interface UserInputRepository {
+public interface UserRepository {
 }
